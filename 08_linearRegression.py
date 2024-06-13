@@ -5,13 +5,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 import seaborn as sns
-<<<<<<< HEAD
-=======
+
 
 # 한글 폰트 설정
 plt.rcParams['font.family'] = 'Malgun Gothic'
 plt.rcParams['axes.unicode_minus'] = False
->>>>>>> origin/master
 
 # 한글 폰트 설정
 plt.rcParams['font.family'] = 'Malgun Gothic'
@@ -98,12 +96,6 @@ y_test_pred = model.predict(X_test)
 print('R^2 score (학습데이터):', r2_score(y_train, y_train_pred))
 print('R^2 score (테스트데이터):', r2_score(y_test, y_test_pred))
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> origin/master
 # 데이터 샘플링
 sample_data = data.sample(frac=0.1, random_state=42)  # 10% 샘플링
 
@@ -126,10 +118,6 @@ if len(features) < 9:
 
 plt.tight_layout()
 plt.savefig('DATA/image/08_linearRegression/가격상관_그래프.png')
-<<<<<<< HEAD
-plt.show()
-=======
 plt.show()
 
 plt.show()
->>>>>>> origin/master

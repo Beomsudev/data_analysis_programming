@@ -57,7 +57,7 @@ axes[0].set_title('원본 데이터 Heatmap')
 sns.heatmap(corr_log, annot=True, cmap='coolwarm', fmt=".2f", ax=axes[1])
 axes[1].set_title('형태변화 데이터 Heatmap')
 plt.xticks(rotation=45)
-plt.show()
+# plt.show()
 
 # 이미지 저장
 plt.savefig('DATA/image/07_dataResult/최종히트맵.png')
