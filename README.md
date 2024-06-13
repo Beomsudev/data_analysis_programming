@@ -2,8 +2,8 @@
     목표 : 아파트 거래금액 데이터 분석을 통해 거래금액에 영향을 미치는 요소들 찾아보기
     
     사용 데이터
-    1. 국토교통부_아파트매매 실거래 상세 자료 : https://www.data.go.kr/data/15057511/openapi.do
-    2. Geocoder API 2.0 레퍼런스 : https://www.vworld.kr/dev/v4dv_geocoderguide2_s001.do
+    1. 국토교통부_아파트매매 실거래 상세 자료 : <https://www.data.go.kr/data/15057511/openapi.do>
+    2. Geocoder API 2.0 레퍼런스 : <https://www.vworld.kr/dev/v4dv_geocoderguide2_s001.do>
 
     
 ### 요구사항 및 라이브러리
